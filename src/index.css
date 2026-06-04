@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #FAFAF9;
+  color: #111827;
+  min-height: 100vh;
+}
+
+:root {
+  --violet: #6D28D9;
+  --violet-light: #F3F0FF;
+  --violet-mid: #EDE9FE;
+  --rose: #BE185D;
+  --rose-light: #FFF1F3;
+  --ink: #111827;
+  --ink-mid: #374151;
+  --ink-muted: #6B7280;
+  --ink-faint: #F9FAFB;
+  --border: #E8E4F0;
+  --mint: #ECFDF5;
+  --mint-text: #065F46;
+  --white: #FFFFFF;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input, select {
+  font-family: inherit;
+}

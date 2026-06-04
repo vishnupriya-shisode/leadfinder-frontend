@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = 'https://your-actual-railway-url.up.railway.app'
+const API_BASE = 'https://leadfinder-dashboard-production.up.railway.app'
 
 export const getBusinesses = async (city, category) => {
   const params = { city }
